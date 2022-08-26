@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(214, 166, 237, 0.446);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.logo{
+  border: 3px solid rgba(255, 255, 255, 0.793);
+  padding: .4em .7em;
+  border-radius: 50%;
+}
+.form-style{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid rgb(96, 31, 142);
+  background-color: rgb(96, 31, 142);
+  border-radius: 10px;
+  padding: 10px;
+  color:white;
+  width: 28%;
+}
+
+.input-field-style{
+  display: block;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border-bottom: 2px solid rgba(214, 166, 237, 0.446) ;
+  font-size: 18px;
+  width: 85%;
+  padding: .5em;
+  margin: .8em;
+  outline: none;
+}
+/* .border-bottom{
+  border-bottom: 2px solid rgba(214, 166, 237, 0.446) ;
+} */
+.input-field-style::placeholder{
+  color: white;
+  font-size: 18px;
+}
+
+.btn{
+  background-color: white;
+  color: rgb(96, 31, 142);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 1em;
+  margin: 1.5em;
+  border-radius: 50px;
+  width: 60%;
+}
